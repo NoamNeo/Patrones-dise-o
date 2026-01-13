@@ -1,7 +1,6 @@
 package Decorators;
 
 public interface Recinto {
-  String[] getAnimales();
-
+  String getAnimales();
   int getCantidad();
 }

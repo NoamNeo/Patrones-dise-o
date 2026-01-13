@@ -6,8 +6,8 @@ public class CerdoDecorador extends DecoradorRecinto {
   }
 
   @Override
-  public String[] getAnimales() {
-    return super.putAnimales("Cerdo");
+  public String getAnimales() {
+    return recintoDecorado.getAnimales() + "Cerdo\n";
   }
 
   @Override

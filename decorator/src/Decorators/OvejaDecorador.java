@@ -6,8 +6,8 @@ public class OvejaDecorador extends DecoradorRecinto {
   }
 
   @Override
-  public String[] getAnimales() {
-    return super.putAnimales("Oveja");
+  public String getAnimales() {
+    return recintoDecorado.getAnimales() + "Oveja\n";
   }
 
   @Override

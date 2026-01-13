@@ -2,8 +2,8 @@ package Decorators;
 
 public class RecintoVacio implements Recinto {
   @Override
-  public String[] getAnimales() {
-    return null; // Al estar vacío no hay animales
+  public String getAnimales() {
+    return ""; // Al estar vacío no hay animales
   }
 
   @Override
