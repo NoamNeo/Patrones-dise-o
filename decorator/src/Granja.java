@@ -16,5 +16,7 @@ public class Granja {
     print(recinto);
     recinto = new OvejaDecorador(recinto);
     print(recinto);
+    recinto = new VacaDecorador(recinto);
+    print(recinto);
   }
 }
