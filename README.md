@@ -12,6 +12,10 @@ La manera más simple de explicar qué es un decorador es en pensar en algún vi
 
 Cómo podemos hacer esto? Pues propongámonos que tenemos una interfaz para crear enemigos, con esa interfaz creamos nuestro slime base el cual tiene unos valores asociados a su ataque, defensa, incluso su nombre, lo que tenemos que hacer para crear varias variaciones de slimes es muy simple. Creamos una clase abstracta para decorar a slimes, y luego a partir de esa clase creamos distintos tipos de clases de slimes que cambian los valores por defecto del slime base.
 
+#### Elementos que aprendí en este ejercicio
+
+\*La palabra super para llamar a funciones creadas por el padre de una clase (usado en los decoradores para llamar al constructor de la clase abstracta).
+
 ## Referencias
 
 ### Decoradores
