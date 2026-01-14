@@ -4,6 +4,9 @@ public class DecoradorFence extends DecoradorRecinto {
 
   public DecoradorFence(Recinto recintoDecorado) {
     super(recintoDecorado);
+    recintoDecorado.setNombre(recintoDecorado.getNombre() + "+");
+    recintoDecorado.setArea(recintoDecorado.getArea() + 5);
+    recintoDecorado.setCapacidad(recintoDecorado.getCapacidad() + 10);
   }
 
   public void setNombre(String nombre) {
@@ -20,16 +23,16 @@ public class DecoradorFence extends DecoradorRecinto {
 
   @Override
   public String getNombre() {
-    return recintoDecorado.getNombre() + "+";
+    return recintoDecorado.getNombre();
   }
 
   @Override
   public int getArea() {
-    return recintoDecorado.getArea() + 5;
+    return recintoDecorado.getArea();
   }
 
   @Override
   public int getCapacidad() {
-    return recintoDecorado.getCapacidad() + 10;
+    return recintoDecorado.getCapacidad();
   }
 }
