@@ -8,12 +8,17 @@ public abstract class DecoradorRecinto implements Recinto {
   }
 
   @Override
-  public String getAnimales() {
-    return recintoDecorado.getAnimales();
+  public String getNombre() {
+    return recintoDecorado.getNombre();
   }
 
   @Override
-  public int getCantidad() {
-    return recintoDecorado.getCantidad();
+  public int getArea() {
+    return recintoDecorado.getArea();
+  }
+
+  @Override
+  public int getCapacidad() {
+    return recintoDecorado.getCapacidad();
   }
 }

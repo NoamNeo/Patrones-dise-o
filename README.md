@@ -15,6 +15,8 @@ Cómo podemos hacer esto? Pues propongámonos que tenemos una interfaz para crea
 #### Elementos que aprendí en este ejercicio
 
 \*La palabra super para llamar a funciones creadas por el padre de una clase (usado en los decoradores para llamar al constructor de la clase abstracta).
+\*El uso de la anotación @Override para indicar en el código métodos que han de ser modificados por sus hijos.
+\*Que una string null no es igual a una string vacía.
 
 ## Referencias
 
