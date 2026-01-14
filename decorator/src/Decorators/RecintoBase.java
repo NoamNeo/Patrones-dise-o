@@ -1,9 +1,9 @@
 package Decorators;
 
 public class RecintoBase implements Recinto {
-  String nombre;
-  int area;
-  int capacidad;
+  private String nombre;
+  private int area;
+  private int capacidad;
 
   public void setNombre(String nombre) {
     this.nombre = nombre;
