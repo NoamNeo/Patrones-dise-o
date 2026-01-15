@@ -4,7 +4,6 @@ public class DecoradorCamara extends DecoradorRecinto {
 
   public DecoradorCamara(Recinto recintoDecorado) {
     super(recintoDecorado);
-    recintoDecorado.setNombre(recintoDecorado.getNombre() + " Con cámara");
   }
 
   public void setNombre(String nombre) {
@@ -21,7 +20,7 @@ public class DecoradorCamara extends DecoradorRecinto {
 
   @Override
   public String getNombre() {
-    return recintoDecorado.getNombre();
+    return recintoDecorado.getNombre() + " Con cámara";
   }
 
   @Override
